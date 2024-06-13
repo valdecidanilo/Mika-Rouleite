@@ -10,6 +10,7 @@ public class Reel : MonoBehaviour
     public Sprite[] imageSpins;
     public float speed = 1f;
     public bool isActive;
+
     public void Spin()
     {
         foreach (var s in symbols)
@@ -22,7 +23,7 @@ public class Reel : MonoBehaviour
             }
         }
     }
-
+    
     private void Update()
     {
         if(isActive) Spin();

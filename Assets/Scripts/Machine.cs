@@ -23,7 +23,7 @@ public class Machine : MonoBehaviour
     private string[] helper =
     {
         "Good Luck!",
-        "place your bets!"
+        "Place your bets!"
     };
     [Header("View")] public TMP_Text txtCredit, txtBet;
     private void Start()
@@ -53,12 +53,11 @@ public class Machine : MonoBehaviour
         bet -= 1;
         UpdateView();
     }
-
     private void UpdateView()
     {
         // KKKK
-        txtCredit.text = "<b>Credit:</b> " + credit;
-        txtBet.text = "<b>Bet:</b> " + bet;
+        txtCredit.text = "<b><color=orange>Credit:</color></b> " + credit;
+        txtBet.text = "<b><color=orange>Bet:</color></b> " + bet;
     }
     private void Update()
     {
