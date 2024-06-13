@@ -1,12 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
+
 public class Reel : MonoBehaviour
 {
     public RectTransform[] symbols;
     public Sprite[] imageSymbols;
     public Sprite[] imageSpins;
     public float speed = 1f;
-    private void Update()
+    public bool isActive;
+    public void Spin()
     {
         foreach (var s in symbols)
         {
@@ -17,5 +21,10 @@ public class Reel : MonoBehaviour
                 s.anchoredPosition = new Vector2(s.anchoredPosition.x, 102f);
             }
         }
+    }
+
+    private void Update()
+    {
+        if(isActive) Spin();
     }
 }
