@@ -56,8 +56,8 @@ public class Machine : MonoBehaviour
     private void UpdateView()
     {
         // KKKK
-        txtCredit.text = "<b><color=orange>Credit:</color></b> " + credit;
-        txtBet.text = "<b><color=orange>Bet:</color></b> " + bet;
+        txtCredit.text = "R$ " + credit.ToString("N2");
+        txtBet.text = "R$ " + bet.ToString("N2");
     }
     private void Update()
     {
