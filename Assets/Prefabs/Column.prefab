@@ -66,9 +66,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1666336247, guid: f38cd98680ec3544ea7da8086d996eee, type: 3}
+  m_Sprite: {fileID: -1574288518, guid: e45a6f1213bd5a840b5ebf3bf8622cad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -163,9 +163,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1354146774, guid: f38cd98680ec3544ea7da8086d996eee, type: 3}
+  m_Sprite: {fileID: 751950799, guid: e45a6f1213bd5a840b5ebf3bf8622cad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -260,9 +260,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 543264791, guid: f38cd98680ec3544ea7da8086d996eee, type: 3}
+  m_Sprite: {fileID: 1534912634, guid: e45a6f1213bd5a840b5ebf3bf8622cad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -357,9 +357,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1650787514, guid: f38cd98680ec3544ea7da8086d996eee, type: 3}
+  m_Sprite: {fileID: -131973669, guid: e45a6f1213bd5a840b5ebf3bf8622cad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -454,9 +454,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -351094963, guid: f38cd98680ec3544ea7da8086d996eee, type: 3}
+  m_Sprite: {fileID: 163575461, guid: e45a6f1213bd5a840b5ebf3bf8622cad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -494,7 +494,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4352163877180416836}
-  - component: {fileID: 5811091565905525156}
   - component: {fileID: 867151456488916321}
   m_Layer: 5
   m_Name: Column
@@ -527,20 +526,6 @@ RectTransform:
   m_AnchoredPosition: {x: 108, y: -2.0177}
   m_SizeDelta: {x: 216, y: 575.3118}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5811091565905525156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6735217122309207217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding: {x: 0, y: 0, z: 0, w: 0}
-  m_Softness: {x: 0, y: 0}
 --- !u!114 &867151456488916321
 MonoBehaviour:
   m_ObjectHideFlags: 0
